@@ -27,7 +27,7 @@ EC2 System → Node Exporter → Prometheus → Grafana
 
 ## Project Structure
 
-\```
+```
 sre-observability/
 ├── docker-compose.yml
 ├── prometheus/
@@ -44,7 +44,7 @@ sre-observability/
     ├── app.py
     ├── requirements.txt
     └── Dockerfile
-\```
+```
 
 ## Setup & Run
 
