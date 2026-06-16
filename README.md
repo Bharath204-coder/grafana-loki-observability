@@ -26,6 +26,8 @@ EC2 System → Node Exporter → Prometheus → Grafana
 - **Saturation** — CPU, memory, disk via node-exporter
 
 ## Project Structure
+
+\```
 sre-observability/
 ├── docker-compose.yml
 ├── prometheus/
@@ -39,9 +41,10 @@ sre-observability/
 │       └── datasources/
 │           └── datasources.yml
 └── app/
-├── app.py
-├── requirements.txt
-└── Dockerfile
+    ├── app.py
+    ├── requirements.txt
+    └── Dockerfile
+\```
 
 ## Setup & Run
 
